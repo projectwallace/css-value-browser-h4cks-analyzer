@@ -1,4 +1,4 @@
-# css-value-hacks-analyzer [![Build Status](https://travis-ci.org/bartveneman/css-value-hacks-analyzer.svg?branch=master)](https://travis-ci.org/bartveneman/css-value-hacks-analyzer) [![Known Vulnerabilities](https://snyk.io/test/github/bartveneman/css-value-hacks-analyzer/badge.svg)](https://snyk.io/test/github/bartveneman/css-value-hacks-analyzer) ![Dependencies Status](https://img.shields.io/david/bartveneman/css-value-hacks-analyzer.svg) ![Dependencies Status](https://img.shields.io/david/dev/bartveneman/css-value-hacks-analyzer.svg) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+# css-value-browser-h4cks-analyzer [![Build Status](https://travis-ci.org/bartveneman/css-value-browser-h4cks-analyzer.svg?branch=master)](https://travis-ci.org/bartveneman/css-value-browser-h4cks-analyzer) [![Known Vulnerabilities](https://snyk.io/test/github/bartveneman/css-value-browser-h4cks-analyzer/badge.svg)](https://snyk.io/test/github/bartveneman/css-value-browser-h4cks-analyzer) ![Dependencies Status](https://img.shields.io/david/bartveneman/css-value-browser-h4cks-analyzer.svg) ![Dependencies Status](https://img.shields.io/david/dev/bartveneman/css-value-browser-h4cks-analyzer.svg) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 A list of tests to determine whether a value is a browser hack, derived from the
 formidable [browserhacks.com](https://browserhacks.com)
@@ -7,17 +7,17 @@ formidable [browserhacks.com](https://browserhacks.com)
 ## Installation
 
 ```bash
-npm install css-value-hacks-analyzer
+npm install css-value-browser-h4cks-analyzer
 
 # or
 
-yarn add css-value-hacks-analyzer
+yarn add css-value-browser-h4cks-analyzer
 ```
 
 ## Usage
 
 ```js
-const isBrowserHack = require('css-value-hacks-analyzer')
+const isBrowserHack = require('css-value-browser-h4cks-analyzer')
 
 // CSS declaration example => .selector { property: value !ie; }
 console.log(isBrowserHack('value !ie'))
