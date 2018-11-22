@@ -1,6 +1,6 @@
 {
   "name": "css-value-browser-h4cks-analyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A list of tests to determine whether a CSS value is considered a browser hack",
   "main": "index.js",
   "engines": {
